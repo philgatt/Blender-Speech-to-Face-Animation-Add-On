@@ -2,7 +2,7 @@
 
 ## 🚧 Work in Progress 🚧
 
-This Blender add-on allows you to input an audio file (spoken or sung words) and automatically generate facial animation. It supports every type of face control rig since it operates using reference poses.
+This Blender add-on will allow you to input an audio file (spoken or sung words) and automatically generate facial animation. It supports every type of face control rig since it operates using reference poses. 
 
 ## ✨ Features
 - Converts speech audio into facial animations.
