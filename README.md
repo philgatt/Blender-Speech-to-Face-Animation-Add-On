@@ -1,14 +1,39 @@
-# Blender-Speech-to-Face-Animation-Add-On
-WORK IN PROGRESS
+# Blender Speech-to-Face Animation Add-On
 
-This Blender add on let's you input an audio file containing spoken or sung words and turns it into a facial animation. Every type of face control rig is supported, since the add on works with reference poses.
-The user needs to add reference poses for the following phonemes:
+## 🚧 Work in Progress 🚧
 
-![image](https://github.com/user-attachments/assets/4ac8a08a-6c4f-4bb8-acd4-3d5110437907)
+This Blender add-on allows you to input an audio file (spoken or sung words) and automatically generate facial animation. It supports every type of face control rig since it operates using reference poses.
 
-After running the add on, words understood by the add on will get listed and the user gets to make corrections. (This is currently only supported in the Blender console, a simple UI will follow)
+## ✨ Features
+- Converts speech audio into facial animations.
+- Supports all facial control rigs through reference poses.
+- Allows user corrections of detected words.
+- Simple UI coming soon!
 
-Some prerequisites are required for Blender's Python executable. These are listed in the requirements.txt file.
+## 🎭 Phoneme Reference Poses
+To achieve accurate animation, the user must define reference poses for the following phonemes:
 
+![Phoneme Reference](https://github.com/user-attachments/assets/4ac8a08a-6c4f-4bb8-acd4-3d5110437907)
 
+## 🔧 How It Works
+1. Install the required dependencies (see [Installation](#installation)).
+2. Set up reference poses for phonemes.
+3. Run the add-on and input an audio file.
+4. The detected words will be listed in the Blender console for review and corrections.
 
+## 📌 Installation
+Ensure Blender's Python executable has the necessary dependencies. Install them using:
+
+```bash
+pip install -r requirements.txt
+```
+
+## 📅 Upcoming Features
+- Graphical User Interface (GUI) for easier corrections.
+- Improved word recognition and phoneme mapping.
+
+## 🛠 Prerequisites
+- Blender with Python enabled.
+- Required dependencies from `requirements.txt`.
+
+---
