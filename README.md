@@ -1,16 +1,16 @@
 # Blender Speech-to-Face Animation Add-On
 
-## 🚧 Work in Progress 🚧
+## Work in Progress 
 
 This Blender add-on will allow you to input an audio file (spoken or sung words) and automatically generate facial animation. It supports every type of face control rig since it operates using reference poses. 
 
-## ✨ Features
+## Features
 - Converts speech audio into facial animations.
 - Supports all facial control rigs through reference poses.
 - Allows user corrections of detected words.
 - Simple UI coming soon!
 
-## 🎭 Phoneme Reference Poses
+## Phoneme Reference Poses
 To achieve accurate animation, the user must define reference poses for the following phonemes:
 
 ![Phoneme Reference](https://github.com/user-attachments/assets/4ac8a08a-6c4f-4bb8-acd4-3d5110437907)
@@ -21,7 +21,7 @@ To achieve accurate animation, the user must define reference poses for the foll
 3. Run the add-on and input an audio file.
 4. The detected words will be listed in the Blender console for review and corrections.
 
-## 📌 Installation
+## Installation
 Ensure Blender's Python executable has the necessary dependencies. Install them using:
 
 ```bash
